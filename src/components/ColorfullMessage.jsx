@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   //再レンダリング確認
   // console.log("カラフル");
   //分割代入_props.colorをcolorのみでOKにする
@@ -13,4 +13,4 @@ const ColorfulMessage = (props) => {
   };
   return <p style={contentStyle}>{children}</p>;
 };
-export default ColorfulMessage;
+// export default ColorfulMessage;

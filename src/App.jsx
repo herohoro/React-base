@@ -2,7 +2,10 @@
 /* eslint react-hooks/exhaustive-deps:off */
 
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfullMessage";
+// import名はこのページで命名しているだけ
+// import ColorfulMessage from "./components/ColorfullMessage";
+// import名は参照元から引っ張っているから同一名にならないとエラーになる
+import { ColorfulMessage } from "./components/ColorfullMessage";
 
 const App = () => {
   //再レンダリング確認
